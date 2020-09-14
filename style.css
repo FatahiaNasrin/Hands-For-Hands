@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #3cbb78;
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.top-background{
+    background-color: #E6F3F6;
+    background-position: center;
+    background-size: cover;
+}
+
+.button-1{
+    padding:7px 23px;
+    background-color: #E6F3F6;
+}
+.button-2{
+    background-color: #21b573;
+    padding:9px 25px;
+    border: none;
+    color: white;
+}
+.body-background{
+    background-color: #f4f8fa;
+}
+.red-heading{
+    color:#c21f3a;
+}
+li{
+    list-style: none;
+}
+
+li:before{
+    content: "\25CF" ;
+    color: green;
+    margin-right: 10px;
+    
+}
+.lower-background{
+    background-color: #ebf4f6;
+}
+.button-3{
+    padding:3px 5px;
+border: 1px solid #C21F3A;
+height: 30px;
+width: 150px;
+color: #c21f3a;
+
+}
+.num-background{
+    width: 27px;
+height: 27px;
+background: #C0E4D7 0% 0% no-repeat padding-box;
+opacity: 1;
+text-align: center;
+}
+.client{
+    text-align: center;
+}
+
+.client-area{
+    padding: 100px;
+}
+.bottom-background{
+ 
+        background: #45B77F no-repeat center / cover;
+        margin-bottom: 25px;
+        margin-top: 70px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    }
+
+
+.button-4{
+    opacity: 1;
+    padding:9px 25px;
+    border: 1px solid white;
+    color: white;
+    background-color: #45B77F;
+}
+   
+    
+    
+  
