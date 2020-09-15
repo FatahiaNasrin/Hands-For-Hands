@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .top{
     background-color: #3cbb78;
     height: 30px;
@@ -21,12 +18,14 @@
 .button-1{
     padding:7px 23px;
     background-color: #E6F3F6;
+    cursor: pointer;
 }
 .button-2{
     background-color: #21b573;
     padding:9px 25px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .body-background{
     background-color: #f4f8fa;
@@ -34,10 +33,16 @@
 .red-heading{
     color:#c21f3a;
 }
+.yellow-heading{
+    color: #FABC65;
+}
 li{
     list-style: none;
 }
+h6::after{
+content:"\0482" ;
 
+}
 li:before{
     content: "\25CF" ;
     color: green;
@@ -46,6 +51,7 @@ li:before{
 }
 .lower-background{
     background-color: #ebf4f6;
+    border-bottom:10px solid #45B77F; 
 }
 .button-3{
     padding:3px 5px;
@@ -53,6 +59,8 @@ border: 1px solid #C21F3A;
 height: 30px;
 width: 150px;
 color: #c21f3a;
+font: normal normal bold 17px lato;
+cursor: pointer;
 
 }
 .num-background{
@@ -62,18 +70,14 @@ background: #C0E4D7 0% 0% no-repeat padding-box;
 opacity: 1;
 text-align: center;
 }
-.client{
+.work-area{
+    padding: 100px;
     text-align: center;
 }
 
-.client-area{
-    padding: 100px;
-}
 .bottom-background{
  
         background: #45B77F no-repeat center / cover;
-        margin-bottom: 25px;
-        margin-top: 70px;
         height: 300px;
         display: flex;
         justify-content: center;
@@ -88,8 +92,46 @@ text-align: center;
     border: 1px solid white;
     color: white;
     background-color: #45B77F;
+    cursor: pointer;
 }
-   
-    
-    
-  
+    td,th{
+        border: 1px solid lightgrey;
+        text-align: center;
+    }
+    td{
+        background-color: white;
+        padding: 0 10px;
+    }
+    th{
+        background-color: #45B77F;
+        padding: 9px 10px;
+        color:white;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    .form-row{
+        width:70%;
+    }
+    .button-5{
+        background-color: #45B77F;
+        color: white;
+        padding: 9px 45px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .blockquote{
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px lightblue;
+    }
+    .footer{
+        background-color: rgb(72, 74, 77);
+        color:white;
+    }
+    .list-style{
+        list-style: none;
+    }
+    .fa-facebook-f{
+        background:#3b5998;
+    } 
