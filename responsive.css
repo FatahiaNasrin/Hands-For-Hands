@@ -1,8 +1,15 @@
-@media only screen and (max-width: 568px){
-    .footer .col-5 {
-width: 100%;
-
+@media only screen and (max-width: 667px){
+    .footer .footer-1 {
+        width: 100%;
+        flex-wrap: wrap;
+        
     }
+    .footer .footer-2{
+     flex-wrap: wrap;
+    }
+    .footer .footer-3{
+        flex-wrap: wrap;
+       }
     .container .yellow-heading{
 margin: 10px;
     }
