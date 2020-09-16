@@ -30,6 +30,9 @@
 .body-background{
     background-color: #f4f8fa;
 }
+.navbar-brand{
+    margin: 0 auto;
+}
 .red-heading{
     color:#c21f3a;
 }
