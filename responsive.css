@@ -1,0 +1,18 @@
+@media only screen and (max-width: 568px){
+    .footer .col-5 {
+width: 100%;
+
+    }
+    .container .yellow-heading{
+margin: 10px;
+    }
+}
+@media screen and(max-width: 767px){
+    .blood-donation{
+        margin-top: 0;
+        text-align: center;
+    }
+    blood-donation img{
+        margin-bottom: 0;
+    }
+}

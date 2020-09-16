@@ -131,6 +131,7 @@ text-align: center;
     .footer{
         background-color: rgb(72, 74, 77);
         color:white;
+    line-height: 25px;
     }
     .list-style{
         list-style: none;
